@@ -1,0 +1,17 @@
+#include "../Adc1/Adc.h"
+
+
+const adc_bits_width_t precision = ADC_WIDTH_BIT_12;
+
+const Adc_Config_t Adc_cfg[NUMBER_OF_CHANNEL_GROUPS] =
+{
+		{ADC1_CHANNEL_0 , ADC_ATTEN_DB_11},
+//		{ADC1_CHANNEL_1 , ADC_ATTEN_DB_11},
+//		{ADC1_CHANNEL_2 , ADC_ATTEN_DB_11},
+		{ADC1_CHANNEL_3 , ADC_ATTEN_DB_11},
+		{ADC1_CHANNEL_4 , ADC_ATTEN_DB_11},
+		{ADC1_CHANNEL_5 , ADC_ATTEN_DB_11},
+		{ADC1_CHANNEL_6 , ADC_ATTEN_DB_11},
+		{ADC1_CHANNEL_7 , ADC_ATTEN_DB_11}
+
+};
